@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
   SRTHaishinKit. Camera and Microphone streaming library via SRT for iOS.
   DESC
 
-  s.homepage     = "https://github.com/shogo4405/SRTHaishinKit.swift"
+  s.homepage     = "https://github.com/eerimoq/SRTHaishinKit.swift"
   s.license      = "New BSD"
   s.author       = { "shogo4405" => "shogo4405@gmail.com" }
   s.authors      = { "shogo4405" => "shogo4405@gmail.com" }
-  s.source       = { :git => "https://github.com/shogo4405/SRTHaishinKit.swift.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/eerimoq/SRTHaishinKit.swift.git", :tag => "#{s.version}" }
 
   s.ios.deployment_target = "11.0"
   s.ios.source_files = "Platforms/iOS/*.{h,swift}"
