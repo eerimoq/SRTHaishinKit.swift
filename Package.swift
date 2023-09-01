@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "SRTHaishinKit", targets: ["SRTHaishinKit"])
     ],
     dependencies: [
-        .package(url: "https://github.com/shogo4405/HaishinKit.swift.git", from: "1.5.7")
+        .package(url: "https://github.com/eerimoq/HaishinKit.swift.git", from: "main")
     ],
     targets: [
         .binaryTarget(
